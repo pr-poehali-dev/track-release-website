@@ -1,5 +1,6 @@
 import { ArrowRight, Globe, Zap, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -30,9 +31,11 @@ const HeroSection = () => {
             </div>
             
             <div className="pt-4 flex items-center gap-4">
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-6">
-                Выпустить релиз
-                <ArrowRight className="ml-2" size={16} />
+              <Button asChild className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-6">
+                <Link to="/release">
+                  Выпустить релиз
+                  <ArrowRight className="ml-2" size={16} />
+                </Link>
               </Button>
               <Button variant="outline" className="border-purple-500 text-purple-600 hover:bg-purple-50">
                 Узнать больше
