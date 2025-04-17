@@ -31,7 +31,7 @@ const HeroSection = () => {
             
             <div className="pt-4 flex items-center gap-4">
               <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-6">
-                Выпустить трек
+                Выпустить релиз
                 <ArrowRight className="ml-2" size={16} />
               </Button>
               <Button variant="outline" className="border-purple-500 text-purple-600 hover:bg-purple-50">
@@ -46,13 +46,13 @@ const HeroSection = () => {
                 <div className="bg-white dark:bg-gray-900 rounded-xl p-6">
                   <img 
                     src="/placeholder.svg" 
-                    alt="Интерфейс выпуска трека" 
+                    alt="Интерфейс выпуска релиза" 
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
                   <div className="mt-6 space-y-4">
                     <h3 className="text-lg font-medium">Интуитивно понятный процесс</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Загрузите свой трек, добавьте информацию и выберите площадки для дистрибуции всего за несколько минут
+                      Загрузите свой релиз, добавьте информацию и выберите площадки для дистрибуции всего за несколько минут
                     </p>
                   </div>
                 </div>
